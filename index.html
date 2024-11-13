@@ -7,12 +7,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1>Tic Tac Toe</h1>
     <div class="container">
-      <h1 class="heading-main">Tic-Tac-Toe</h1>
-      <h1 class="turn"></h1>
+      <div id="controls">
+        <input type="text" id="player1" placeholder="Player 1 Name" />
+        <input type="text" id="player2" placeholder="Player 2 Name" />
+        <button id="btn-start">Start Game</button>
+        <button id="btn-restart">Restart Game</button>
+      </div>
 
-      <div class="board"></div>
+      <div id="gameboard"></div>
+      <div id="message"></div>
+      <div id="show-result"></div>
     </div>
-    <script src="app.js" defer></script>
+    <script src="app.js"></script>
   </body>
 </html>
