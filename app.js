@@ -70,7 +70,7 @@ const Game = (() => {
     if (checkForWin(Gameboard.getGameboard())) {
       gameOver = true;
       displayController.renderMessage(
-        `${players[currentPlayerIndex].name} winsS`
+        `${players[currentPlayerIndex].name} wins!`
       );
     } else if (checkForTie(Gameboard.getGameboard())) {
       gameOver = true;
